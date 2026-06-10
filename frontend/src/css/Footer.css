@@ -1,0 +1,34 @@
+.footer {
+  background-color: rgb(131, 126, 126);
+  color: white;
+  padding: 30px 20px 10px;
+  
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+
+.footer-section p {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.footer-section p:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid gray;
+  padding-top: 10px;
+}

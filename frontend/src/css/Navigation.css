@@ -1,0 +1,73 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(247, 186, 227);
+  color: rgb(116, 21, 68);
+  padding: 10px 30px;
+  
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(10, 8, 10);
+  font-family:Ink Free;
+  
+  
+}
+
+.links a {
+  margin: 0 10px;
+  color: rgb(15, 14, 14);
+  font-family:'Times New Roman', Times, serif
+}
+
+.links a:hover {
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+.links button {
+  background: rgb(247, 5, 126);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.links button:hover {
+  background: darkred;
+}
+
+.profile-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  background: white;
+  color: black;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  padding: 10px;
+  z-index: 100;
+}
+
+.dropdown p {
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.dropdown p:hover {
+  color: blue;
+}
